@@ -1,11 +1,11 @@
 {
   "members": [
-    "anh",
+    "lananh",
     "quan",
     "thinh"
   ],
   "assignments": {
-    "anh": "B2-dense",
+    "lananh": "B1-edge",
     "quan": "B2-mid",
     "thinh": "B1-dense"
   },
