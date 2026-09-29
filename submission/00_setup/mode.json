@@ -1,0 +1,15 @@
+{
+  "members": [
+    "anh",
+    "quan",
+    "thinh"
+  ],
+  "assignments": {
+    "anh": "B2-dense",
+    "quan": "B2-mid",
+    "thinh": "B1-dense"
+  },
+  "self": "thinh",
+  "slice": "B1-dense",
+  "degrade": []
+}
