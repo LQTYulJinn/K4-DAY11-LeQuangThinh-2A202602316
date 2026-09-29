@@ -1,3 +1,10 @@
 round,slice,frame,object_ref,cell,what,why,severity,owner,rule_id,evidence,action,rules_version,note
 calib,C0,adasind_019560.jpg,L7,na,SPURIOUS,,,,,,,,
 calib,C0,adasind_019560.jpg,L8,na,SPURIOUS,,,,,,,,
+r1_craft,B1-edge,adasind_001320.jpg,L2,na,IGNORE_SCOPE,E1_annotator_error,P0,annotator,R07,screenshots/adasind_001320.jpg_L2_ego.png,rework,v1.0.0,Thân xe ego chưa vẽ ignore_region
+r1_craft,B1-edge,adasind_014670.jpg,L7,na,IGNORE_SCOPE,E1_annotator_error,P0,annotator,R07,screenshots/adasind_014670.jpg_L7_ego.png,rework,v1.0.0,Thiếu polygon ego_body
+r1_craft,B1-edge,adasind_034080.jpg,L9,na,IGNORE_SCOPE,E1_annotator_error,P0,annotator,R07,screenshots/adasind_034080.jpg_L9_ego.png,rework,v1.0.0,Thiếu polygon ego_body
+r2_qa,B1-edge,adasind_014670.jpg,L1,L_only,WRONG_CLASS,,P1,annotator,R04,screenshots/adasind_014670.jpg_L1_bus.png,rework,v1.0.0,Cabin phẳng thùng xe tải nhỏ ở biên trái cần đổi sang Truck
+r2_qa,B1-edge,adasind_034080.jpg,L2,L_only,DUPLICATE,,P1,annotator,R03,screenshots/adasind_034080.jpg_L1_L2_bike_overlap.png,rework,v1.0.0,Box L2 nằm sát sau L1 cần kiểm tra tránh nhầm rider hoặc duplicate xe máy
+r2_qa,B1-edge,adasind_001320.jpg,L1,L_only,IGNORE_SCOPE,,P0,annotator,R07,screenshots/adasind_001320.jpg_L1_L3.png,rework,v1.0.0,Kiểm tra phạm vi người đi bộ L1 cạnh ThreeWheeler L3 và bổ sung ego_body
+r2_qa,B1-edge,adasind_034080.jpg,L9,L_only,IGNORE_SCOPE,,P0,annotator,R07,screenshots/adasind_034080.jpg_L9_ego.png,rework,v1.0.0,Box L9 đè lên thân gương xe ego thiếu polygon ignore_region
