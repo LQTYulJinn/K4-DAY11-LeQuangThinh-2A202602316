@@ -1,0 +1,9 @@
+round: rework
+slice: B1-edge
+sha256: 3688ed63fbbf8bd046901be8bacdd4bf5ede17e93e6041a66a5c656e525cf9c2
+code: 3688-ED63
+locked_at: 2026-09-29T16:25:34+00:00
+shapes: box=21, polygon=9
+prefill_kept: 1
+prefill_edited: 2
+new: 18

@@ -1,9 +1,9 @@
 camera_id,slice_type,frames,risk,rationale
-front,normal,,TODO,TODO
-front,hard,,TODO,TODO
-rear,normal,,TODO,TODO
-rear,hard,,TODO,TODO
-left,normal,,TODO,TODO
-left,hard,,TODO,TODO
-right,normal,,TODO,TODO
-right,hard,,TODO,TODO
+front,normal,36,medium-high,"Camera trước gặp mật độ đối tượng cắt ngang (người đi bộ, xe máy, giao lộ) cao nhất trong 4 camera; ca normal dùng để đo baseline recall cho class Bike/Pedestrian/ThreeWheeler đông đảo nhất."
+front,hard,24,high,"Ca khó tập trung ở giao lộ/đèn đỏ: vật cắt ngang bất ngờ, chồng lấn nhiều xe hai bánh (rủi ro rider/duplicate như R03), ngược sáng buổi sáng/chiều — camera trước là nơi một lỗi bỏ sót có hậu quả an toàn cao nhất nên cần tỉ lệ hard lớn nhất."
+rear,normal,30,medium,"Camera sau chủ yếu dùng khi lùi/đỗ; mật độ vật thấp hơn phía trước nhưng vẫn cần baseline cho object tĩnh (xe đỗ, cột, người đi bộ phía sau)."
+rear,hard,20,medium-high,"Ca khó: vật xuất hiện đột ngột trong điểm mù khi lùi, ánh sáng đèn hậu xe khác gây chói, và các ca ego_body (cản sau, biển số) dễ lẫn với vật thật — ảnh hưởng an toàn khi lùi nên vẫn cần tỉ lệ hard đáng kể dù thấp hơn front."
+left,normal,27,medium,"Camera trái dùng cho chuyển làn/điểm mù bên trái; mật độ vật vừa phải, chủ yếu xe hai bánh vượt và người đi bộ ven đường."
+left,hard,18,medium,"Ca khó: vùng seam với camera trước/sau ở góc xe (một vật có thể xuất hiện ở cả hai camera với hai box khác nhau — xem câu 1 `50_exit_ticket.md`), và vật ở rìa ảnh méo nhiều do fisheye."
+right,normal,27,medium,Camera phải tương tự camera trái về vai trò (điểm mù/chuyển làn); giữ số frame bằng camera trái để không thiên vị một phía khi chưa có dữ liệu thực tế cho thấy bên nào rủi ro hơn.
+right,hard,18,medium,"Ca khó tương tự camera trái: seam với front/rear, méo rìa ảnh, và thêm ca xe máy áp sát (thường gặp ở làn ngoài cùng bên phải tại giao lộ theo chiều đi bên phải)."
