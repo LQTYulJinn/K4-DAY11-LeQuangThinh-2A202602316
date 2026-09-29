@@ -9,7 +9,7 @@
     "quan": "B2-mid",
     "thinh": "B1-dense"
   },
-  "self": "thinh",
-  "slice": "B1-dense",
+  "self": "lananh",
+  "slice": "B1-edge",
   "degrade": []
 }
