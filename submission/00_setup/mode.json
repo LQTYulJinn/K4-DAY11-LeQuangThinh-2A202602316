@@ -11,5 +11,9 @@
   },
   "self": "lananh",
   "slice": "B1-edge",
-  "degrade": []
+  "degrade": [],
+  "current_slice": "C0",
+  "support_prefill": false,
+  "support_slice": "",
+  "prefill_box_ids": []
 }
