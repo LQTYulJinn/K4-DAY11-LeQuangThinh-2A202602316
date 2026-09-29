@@ -12,7 +12,6 @@
   "self": "lananh",
   "slice": "B1-edge",
   "degrade": [],
-<<<<<<< HEAD
   "current_slice": "B1-edge",
   "support_prefill": false,
   "support_slice": "",
@@ -21,10 +20,4 @@
     "adasind_001320.jpg:2",
     "adasind_001320.jpg:3"
   ]
-=======
-  "current_slice": "C0",
-  "support_prefill": false,
-  "support_slice": "",
-  "prefill_box_ids": []
->>>>>>> 9ae05185190b9c7919deccec64da5776744b0243
 }

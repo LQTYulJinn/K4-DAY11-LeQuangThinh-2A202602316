@@ -1,0 +1,9 @@
+round: r1_craft
+slice: B1-edge
+sha256: ff66769e15abb9000f88571a2a1044c886b278bfe1c6b48a539c41f55ee62ccd
+code: FF66-769E
+locked_at: 2026-09-29T12:05:44+07:00
+shapes: box=23, polygon=6
+prefill_kept: 1
+prefill_edited: 2
+new: 20
